@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  height: 80px;
+  width: 97%;
+  flex-wrap: nowrap;
+}
+
+.col-5 {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #000;
+  height: 200px;
+  background-image: url("../images/ocens_wave.jpg");
+  flex-wrap: nowrap;
+}
+.col-5 h1 {
+  text-align: center;
+  color: #fff;
+  flex-wrap: nowrap;
+}
+.col-5 h5 {
+  text-align: center;
+  color: #fff;
+  flex-wrap: nowrap;
+}
+.col-5:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 500ms;
+  cursor: pointer;
+}
+.col-5 .travel {
+  margin: 20px auto;
+  width: 70px;
+  flex-direction: column;
+  border: none;
+  padding: 10px 10px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+.col-5 .travel:hover {
+  cursor: pointer;
+}
+
+.afer {
+  transform: rotate(45deg);
+  margin-left: 250px;
+  margin-top: -30px;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: #fff;
+  flex-wrap: nowrap;
+}
+
+.bir {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #000;
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+  flex-wrap: nowrap;
+}
+
+.cards {
+  width: 100%;
+  height: 600px;
+  flex-wrap: nowrap;
+}
+.cards .col-3 {
+  height: 450px;
+  border: #000 solid 0.1px;
+  flex-wrap: nowrap;
+}
+.cards .col-3:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
+}
+.cards .col-3 img {
+  height: 200px;
+  width: 336px;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .text {
+  margin-top: 15px;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .forward .after {
+  transform: rotate(45deg);
+  margin-left: 10px;
+  margin-top: -10px;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: yellow;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .forward .culture {
+  padding-bottom: 10px;
+  width: 70px;
+  flex-direction: column;
+  border: none;
+  background-color: yellow;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .forward .culture:hover {
+  cursor: pointer;
+}
+
+h3 {
+  flex-wrap: nowrap;
+}
+h3 :hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
+@media (max-width: 767.98px) {
+  .container-fluid{
+    flex-wrap: nowrap;
+  }
+  .cards{
+    flex-wrap: nowrap;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  height: 80px;
+  width: 97%;
+  flex-wrap: nowrap;
+}
+
+.col-5 {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #000;
+  height: 200px;
+  background-image: url("../images/ocens_wave.jpg");
+}
+.col-5 h1 {
+  text-align: center;
+  color: #fff;
+}
+.col-5 h5 {
+  text-align: center;
+  color: #fff;
+  margin-top: -150px;
+}
+.col-5:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 500ms;
+  cursor: pointer;
+}
+.col-5 .travel {
+  margin: 20px auto;
+  width: 70px;
+  flex-direction: column;
+  border: none;
+  padding: 10px 10px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+.col-5 .travel:hover {
+  cursor: pointer;
+}
+.bir {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #000;
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+  flex-wrap: nowrap;
+}
+
+.cards {
+  width: 100%;
+  height: 600px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.cards .col-3 {
+  height: 450px;
+  border: #000 solid 0.1px;
+  overflow: hidden;
+}
+.cards .col-3:hover {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
+}
+.cards .col-3 img {
+  height: 200px;
+  width: 10px;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .text {
+  margin-top: 15px;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .forward .after {
+  transform: rotate(45deg);
+  margin-left: 10px;
+  margin-top: -10px;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: yellow;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .forward .culture {
+  padding-bottom: 10px;
+  width: 70px;
+  flex-direction: column;
+  border: none;
+  background-color: yellow;
+  flex-wrap: nowrap;
+}
+.cards .col-3 .forward .culture:hover {
+  cursor: pointer;
+}
+h5{
+  margin-top: -150px;
+}
+h3 :hover {
+  cursor: pointer;
+}
+}

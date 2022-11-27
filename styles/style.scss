@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    height: 80px;
+    width: 97%;
+    flex-wrap: nowrap;
+}
+.col-5{
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #000;
+    height: 200px;
+    background-image: url("../images/ocens_wave.jpg");
+    flex-wrap: nowrap;
+    h1{
+        text-align: center;
+        color: #fff;
+        flex-wrap: nowrap;
+    }
+    h5{
+        text-align: center;
+        color: #fff;
+        flex-wrap: nowrap;
+    }
+    &:hover{
+        transform: scale(1.2, 1.2);
+        transition: all 500ms;
+        cursor: pointer;
+    }
+    .travel{
+        margin: 20px auto;
+        width: 70px;
+        flex-direction: column;
+        border: none;
+        padding: 10px 10px;
+        background-color: #fff;
+        overflow: hidden;
+        flex-wrap: nowrap;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.afer{
+    transform: rotate(45deg);
+    margin-left: 250px;
+    margin-top: -30px;
+    width: 12px;
+    height: 12px;
+    border: none;
+    background-color: #fff;
+    flex-wrap: nowrap;
+}
+.bir{
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #000;
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+    flex-wrap: nowrap;
+}
+.cards{
+    width: 100%;
+    height: 600px;
+    flex-wrap: nowrap;
+    .col-3{
+        height: 450px;
+        border: #000 solid 0.1px;
+        flex-wrap: nowrap;
+        &:hover{
+            transform: scale(1.2, 1.2);
+            transition: all .5s;
+        }
+        img{
+            height: 200px;
+            width: 336px;
+            flex-wrap: nowrap;
+        }
+        .text{
+            margin-top: 15px;
+            flex-wrap: nowrap;
+        }
+        .forward{
+            .after{
+                transform: rotate(45deg);
+                margin-left: 10px;
+                margin-top: -10px;
+                width: 12px;
+                height: 12px;
+                border: none;
+                background-color: yellow;
+                flex-wrap: nowrap;
+            }
+            .culture{
+                padding-bottom: 10px;
+                width: 70px;
+                flex-direction: column;
+                border: none;
+                background-color: yellow;
+                flex-wrap: nowrap;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+h3{
+    flex-wrap: nowrap;
+    :hover{
+        cursor: pointer;
+    }
+}
